@@ -86,8 +86,8 @@ def main():
         img_urls = read_urls(urls_code)
         
     elif args[0] == '--file':
-        todir = 'getimgs'
-        img_urls = read_txt('getimgs.txt')
+        todir = 'dler'
+        img_urls = read_txt('dler.txt')
     
     if todir:
         download_images(img_urls, todir)
